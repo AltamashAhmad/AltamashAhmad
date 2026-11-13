@@ -1,5 +1,5 @@
 # Hi there, I'm Altamash Ahmad 👋
-### Senior Full-Stack & GenAI Engineer | Distributed Systems & RAG Architecture
+### Full-Stack Software Engineer | Enterprise GenAI, Distributed Systems & Cloud Architecture
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/altamash9648/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://altamashportfolio-inky.vercel.app/)
@@ -9,11 +9,8 @@
 ---
 
 ### 🚀 About Me
-- 🔭 **Currently Building:** Production GenAI applications, enterprise ERP architectures, and high-concurrency microservices.
-- 🤖 **AI Model Benchmarking & Alignment:** 
-  - **Super Writer** at **Mercor** (Project Odin & Frontier Model Evaluation).
-  - **Gold Tier Specialist** at **Alignerr (Labelbox)** (Conversational AI & STEM Code Evaluation).
-  - **Mercor Certified:** *Introduction to Agents* (`MRC-2026-WFHN4LKK`) & *Mastering Model Mechanics* (`MRC-2026-3B4LVW3W`).
+- 🔭 **Currently Building:** High-concurrency enterprise applications, modular ERP architectures, and production GenAI pipelines.
+- 💼 **Enterprise Experience:** Full-stack developer at **Zylo** (architecting NestJS/PostgreSQL ERP systems with pessimistic locking concurrency and Aldar integrations) and backend engineer at **Ekai** (LLM-powered Slack enterprise systems with OAuth/JWT).
 - ⚡ **Algorithmic Mastery:** 500+ DSA problems solved (227+ on LeetCode: 120 Medium, 15 Hard).
 - 📍 **Location:** Abu Dhabi, UAE (Open to US Relocation & Global Remote).
 
@@ -28,7 +25,6 @@
 | **Backend & Distributed** | Node.js, NestJS, Express.js (v4/v5), RESTful APIs, GraphQL, Microservices, Modular Monolith, Server-Sent Events (SSE) |
 | **Databases & Caching** | PostgreSQL, Prisma ORM, Redis (Distributed Locks, Sliding-Window Rate Limiting), MongoDB, Firebase Firestore |
 | **GenAI & Agentic Systems** | RAG (Retrieval-Augmented Generation), Vector DBs (Pinecone, Chroma, pgvector), Tool Calling, LangChain, OpenAI / Claude / Gemini / DeepSeek |
-| **AI Alignment (RLHF)** | SFT / RLHF Rubric Scoring, Multi-Turn Reasoning Calibration, Code Quality Benchmarking, Red-Teaming, Factual Attribution |
 | **Cloud & DevOps** | AWS (EC2, S3, Lambda, CloudFront, Amplify), Docker, GitHub Actions CI/CD, Jest, Git |
 
 ---
@@ -46,19 +42,25 @@
 > **High-Throughput Dual-Window Rate Limiting Engine**  
 > *Stack: Node.js, Express, Redis (Atomic INCR & Sorted Sets ZADD), Winston*
 > - Dual-window rate limiter enforcing tiered API quotas using atomic counters and sliding-window sorted sets.
-> - Replaced table scans with $O(\log N)$ time-series indexing in Redis to prevent boundary-burst attacks.
+> - Replaced table scans with O(log N) time-series indexing in Redis to prevent boundary-burst attacks.
 
 #### 3. [Personalized AI Storybooks](https://github.com/AltamashAhmad/personalized-ai-storybooks) 📖
 > **Bilingual AI Children's Book Platform for UAE & MENA**  
 > *Stack: Next.js 16, React 19, TypeScript, Tailwind CSS, 3D CSS flipbook preview & print engine*
 > - Interactive generative story builder supporting Arabic and English localization with custom character personalization.
 
-#### 4. [Kana Dojo](https://github.com/AltamashAhmad/kana-dojo) 🎌
+#### 4. [Property Listing System](https://github.com/AltamashAhmad/Property-Listing-System) 🏢
+> **Full-Stack Real Estate Discovery Platform**  
+> *Stack: TypeScript, Node.js, Express, MongoDB, Redis, JWT*
+> - Production-ready RESTful architecture with 15+ search filters, geospatial discovery, and user recommendation engine.
+> - Redis multi-level caching layer reducing query latency by 60%.
+
+#### 5. [Kana Dojo](https://github.com/AltamashAhmad/kana-dojo) 🎌
 > **Minimalist Language Learning Platform (Sponsored by Vercel)**  
 > *Stack: Next.js, React, TypeScript, Tailwind CSS*
 > - High-performance typing and spaced-repetition platform designed for speed, fluidity, and accessibility.
 
-#### 5. [Drone Survey Management System](https://github.com/AltamashAhmad/Drone-Survey-Management-System) 🛸
+#### 6. [Drone Survey Management System](https://github.com/AltamashAhmad/Drone-Survey-Management-System) 🛸
 > **Real-Time Fleet & Mission Planning Platform**  
 > *Stack: React, Material UI, Node.js, PostgreSQL, Socket.io*
 > - Real-time telemetry monitoring, mission planning coordinates, and fleet state management over WebSockets.
